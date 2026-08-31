@@ -1,6 +1,6 @@
-# Nothing we could send — study pack
+# Cost per Valid Deliverable — study pack
 
-Everything behind the Tenex research report of 31 August 2026: the data four Claude models
+Everything behind the Tenex research report *Cost per Valid Deliverable* (31 August 2026): the data four Claude models
 were given, the prompts they were given, every document they produced, and the record of
 how those documents were graded.
 
