@@ -1,0 +1,20 @@
+This working folder uses synthetic data about fictional companies. No source describes a
+real company.
+
+SOURCE RULES
+
+1. Use only the folders and files named in the current task.
+2. Put a filename, record ID, section, or date beside material claims.
+3. Show conflicts, missing facts, uncertainty, and stale evidence instead of resolving them silently.
+4. Keep supplied facts, calculations, and interpretation visibly separate.
+5. Show the inputs to every calculation, not only the result.
+
+WORKING RULES
+
+6. Save generated analysis and artifacts only in the named outputs folder. Never overwrite raw inputs.
+7. Ask before broadening the source boundary or changing the output specification.
+8. Do not send, post, share, update, move, or delete content in a connected system.
+9. If a requested conclusion is not supported, state what is missing.
+10. Before finishing, check the required sections, citations, open questions, output path, and snapshot date.
+
+Snapshot date: 2026-08-20

@@ -1,0 +1,13 @@
+task,model,repeat,effort,started,finished,artifact_file,usage_screenshot,wall_seconds,api_seconds,reported_cost_usd,pages_or_words,extra_files_created,asked_a_question,notes
+b,haiku,1,high,,,b-haiku.md,usage-b-haiku.png,193,187,0.36,286,0,no,app surface; 3m13s wall / 3m7s api; reported $0.36; 2.4M in / 44 out
+b,sonnet,1,high,,,b-sonnet.md,usage-b-sonnet.png,358,352,1.27,348,0,no,app surface; 5m58s wall / 5m52s api; reported $1.27
+b,opus,1,high,,,b-opus.md,usage-b-opus.png,95,89,1.49,347,0,no,app surface; 1m35s wall / 1m29s api; reported $1.49; 814k in / 105 out
+b,fable,1,high,,,b-fable.md,usage-b-fable.png,172,165,4.0,348,0,no,app surface; 2m52s wall / 2m45s api; reported $4.00; 1.5M in / 61 out
+c,haiku,1,high,,,c-haiku.pdf,usage-c-haiku.png,200,188,0.59,1 page,0,no,app surface; 3m20s wall / 3m8s api; reported $0.59; 4.4M in / 75 out; ReportLab; truncated account names on page; no weighted-forecast movement; coverage inputs not shown; Elmstead absent
+c,sonnet,1,high,,,c-sonnet.pdf,usage-c-sonnet.png,833,806,3.49,1 page,0,no,"app surface; 13m53s wall / 13m26s api; reported $3.49; 12M in / 617 out; landscape letter, Chromium/Skia"
+c,opus,1,high,,,c-opus.pdf,usage-c-opus.png,1096,1036,7.77,1 page,0,no,app surface; 18m16s wall / 17m16s api; reported $7.77; 8.0M in / 417 out; A4 landscape (others letter); Chromium
+c,fable,1,high,,,c-fable.pdf,usage-c-fable.png,606,571,11.45,1 page,0,no,app surface; 10m6s wall / 9m31s api; reported $11.45; 6.3M in / 475 out; letter landscape; Chromium
+a,haiku,1,high,,,a-haiku.pdf,usage-a-haiku.png,335,324,0.5,7 pages,0,no,app surface; 5m35s wall / 5m24s api; reported $0.50; 2.9M in / 59 out; ReportLab; '4063%' growth error; invented 90% coverage threshold; 'past close' attributed to Lantern; Elmstead close date/36 days absent
+a,sonnet,1,high,,,a-sonnet.pdf,usage-a-sonnet.png,653,631,3.03,8 pages,0,no,app surface; 10m53s wall / 10m31s api; reported $3.03; 13M in / 483 out; 960x540 16:9; slide 4 says 'other 12 of 16 unchanged' (should be 11 - Harborlight close date changed); slide 2 headline 'Coverage looks adequate'
+a,opus,1,high,,,a-opus.pdf,usage-a-opus.png,961,922,8.43,8 pages,0,no,app surface; 16m1s wall / 15m22s api; reported $8.43; 12M in / 600 out; 960x540 16:9; Chromium
+a,fable,1,high,,,a-fable.pdf,usage-a-fable.png,474,441,8.7,8 pages,0,no,app surface; 7m54s wall / 7m21s api; reported $8.70; 7.3M in / 651 out; 960x540 16:9; Chromium

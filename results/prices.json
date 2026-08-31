@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-08-28",
+  "basis": "Anthropic first-party API list prices, USD per million tokens",
+  "verify_at": "https://claude.com/pricing",
+  "note": "Prices are data, not prose. Recompute every dollar figure at render time from this file and stamp it with as_of. Sonnet 5 introductory pricing ($2/$10) runs through 2026-08-31; runs on or before that date may be reported on either basis, but the basis must be stated. Default reporting basis for this study is standard, with intro shown as a sensitivity.",
+  "multipliers": {
+    "cache_read": 0.1,
+    "cache_write_5m": 1.25,
+    "cache_write_1h": 2.0
+  },
+  "models": {
+    "haiku":  {"model_id": "claude-haiku-4-5", "in_per_mtok": 1.0,  "out_per_mtok": 5.0,  "context": 200000},
+    "sonnet": {"model_id": "claude-sonnet-5",  "in_per_mtok": 3.0,  "out_per_mtok": 15.0, "context": 1000000,
+               "intro": {"in_per_mtok": 2.0, "out_per_mtok": 10.0, "through": "2026-08-31"}},
+    "opus":   {"model_id": "claude-opus-5",    "in_per_mtok": 5.0,  "out_per_mtok": 25.0, "context": 1000000},
+    "fable":  {"model_id": "claude-fable-5",   "in_per_mtok": 10.0, "out_per_mtok": 50.0, "context": 1000000}
+  },
+  "sidecar": {
+    "model_id": "claude-haiku-4-5-20251001",
+    "note": "Claude Code fires a small Haiku housekeeping call per session. It is separable from modelUsage when the target model differs, and MERGED into the target rows when the target is Haiku. Subtract it symmetrically or not at all - never from some arms only."
+  }
+}

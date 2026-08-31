@@ -1,0 +1,57 @@
+I need a landscape PDF pipeline health and forecast deck for revenue leaders deciding where
+the forecast is exposed and what action to take. The PDF format is intentional: visual
+polish is a core output requirement. It must be ready to present to senior decision-makers
+without rewriting or redesign. The snapshot date is 2026-08-20.
+
+Act as a careful revenue operations analyst and presentation editor. Calculate from the
+supplied rules, show your inputs, and leave unsupported points open.
+
+Follow the Project Instructions saved in this Project. Use only the files in
+`source-pack/august-pipeline/`. Apply `forecast-rules.md` exactly as written. Do not use
+unstated background knowledge, and do not search the web. Do not open, reuse, rename, or copy
+any existing file from `outputs/`. Generate a new PDF presentation from the source files in
+this task.
+
+Create a 6–8-page landscape PDF presentation, not a memo or document. Put the forecast call
+first, support it with two to four distinct reasons, and end with the implication or action.
+Use conclusion-led page titles, one main message per page, concise presentation copy, and
+readable tables or charts only where they help the audience make the decision. Use a
+consistent grid, strong hierarchy, generous whitespace, balanced composition, restrained
+colour, and purposeful visual emphasis. Avoid dense prose, repetitive card grids, tiny
+labels, and decoration that does not clarify the message. Put 2026-08-20 on the title page.
+
+Use the sections below as content requirements. Combine related sections when needed to stay
+within 6–8 pages:
+
+1. Executive forecast call
+2. Pipeline and forecast against target
+3. Movement since the prior snapshot
+4. Coverage, concentration, aging, and stale opportunities
+5. Deals driving upside or downside
+6. Management actions, owners, and unresolved data problems
+7. Sources, missing information, and limitations
+
+Show current and prior values separately. Calculate coverage, weighted forecast, aging, and
+concentration from the supplied rules and show the inputs to each. Keep pipeline hygiene
+separate from management judgment. Do not invent stage changes, seller notes, targets,
+owners, or close dates. Do not treat stale data, slippage, or concentration as proof that a
+deal will close or be lost.
+
+Proof conditions:
+
+- make the presentation suitable for a senior leadership meeting;
+- make every page look intentionally designed rather than like a document exported to PDF;
+- cite material claims with filename plus opportunity ID or date;
+- show source conflicts and missing information;
+- do not invent owners, dates, movements, or causal claims;
+- include sources, missing information, and limitations without crowding the pages.
+
+Create exactly one new file: the PDF at `outputs/pipeline-health-deck.pdf`. Do not create,
+save, or present an analysis brief, source summary, calculation log, scorecard, test report,
+or copied source file.
+
+Before finishing, inspect every rendered page for clipped text, overlaps, tiny type, broken
+charts, and inconsistent margins. Correct those problems, then confirm the .pdf exists at
+the exact path above. Report the path, page count, and file size in bytes. Do not return a
+Markdown document, stop at an outline, or finish while the PDF is missing. Check every
+figure against the source files and list any requirement you could not meet.

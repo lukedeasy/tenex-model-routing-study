@@ -1,0 +1,41 @@
+I need a one-page landscape PDF pipeline snapshot for our weekly revenue review. It is
+projected on a screen and read in about ninety seconds, so visual clarity is a core output
+requirement, not decoration. The snapshot date is 2026-08-20.
+
+Act as a careful revenue operations analyst and presentation editor. Calculate from the
+supplied rules, show your inputs, and leave unsupported points open.
+
+Follow the Project Instructions saved in this Project. Use only the files in
+`source-pack/august-pipeline/`. Apply `forecast-rules.md` exactly as written. Do not use
+unstated background knowledge, and do not search the web. Do not open, reuse, rename, or
+copy any existing file from `outputs/`. Generate a new PDF from the source files in this task.
+
+Create exactly one landscape page carrying, in a deliberate visual hierarchy:
+
+1. The forecast call as the dominant element: open pipeline, weighted forecast, target, and
+   coverage shown as a ratio with both of its inputs visible.
+2. Movement since the prior snapshot, separating what changed in amount from what changed
+   only in forecast category.
+3. Concentration, opportunity and stage aging, and the stale opportunities.
+4. The two or three management actions that follow, each with an owner.
+5. The data problems that need fixing.
+6. A compact source-and-limitations strip, readable but visually subordinate.
+
+Design rules: one clear focal point, a consistent grid, real whitespace, restrained colour
+used to signal rather than decorate, and body type large enough to read from a
+conference-room screen. Nothing may be clipped, overlapped, or shrunk below readable size to
+make it fit. If the content does not fit, cut the least decision-relevant content rather than
+reducing type size. Put 2026-08-20 on the page.
+
+Keep pipeline hygiene separate from management judgment. Do not invent stage changes, seller
+notes, targets, owners, or close dates. Do not treat stale data, slippage, or concentration
+as proof that a deal will close or be lost.
+
+Create exactly one new file: the PDF at `outputs/pipeline-one-pager.pdf`, and it must be
+exactly one page. Do not create an analysis brief, source summary, calculation log, or any
+second file.
+
+Before finishing, inspect the rendered page for clipped text, overlaps, tiny type, and
+inconsistent margins. Correct those problems, then confirm the .pdf exists at the exact path
+above. Report the path, page count, and file size in bytes. Do not return a Markdown document
+or finish while the PDF is missing. List any requirement you could not meet.

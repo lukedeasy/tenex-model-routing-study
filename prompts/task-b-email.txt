@@ -1,0 +1,32 @@
+I need an internal email to our revenue leadership giving the forecast call on this
+pipeline snapshot and what management should do about it. The snapshot date is 2026-08-20.
+
+Act as a careful revenue operations analyst. Calculate from the supplied rules, show your
+inputs, and leave unsupported points open.
+
+Follow the Project Instructions saved in this Project. Use only the files in
+`source-pack/august-pipeline/`. Apply `forecast-rules.md` exactly as written. Do not use
+unstated background knowledge, and do not search the web. Do not open, reuse, rename, or
+copy any existing file from `outputs/`.
+
+Write the email. Requirements:
+
+- Subject line that states the call, not the topic.
+- Under 350 words in the body. A revenue leader reads it on a phone between meetings.
+- Open with the forecast call: open pipeline, weighted forecast, total target, and coverage
+  with its numerator and denominator shown.
+- Then, clearly separated and in this order: what moved since the prior snapshot and what
+  actually drove the change; concentration, aging, and stale opportunities; the two or three
+  management actions that follow, each with an owner; and the data problems that need fixing.
+- Close with a short "what I could not confirm" line.
+- Cite each material claim inline with the source filename plus an opportunity ID or date,
+  in parentheses.
+
+Keep pipeline hygiene separate from management judgment. Do not invent stage changes, seller
+notes, targets, owners, or close dates. Do not treat stale data, slippage, or concentration
+as proof that a deal will close or be lost.
+
+Create exactly one new file: `outputs/pipeline-forecast-email.md`, containing the subject
+line and the body and nothing else. Do not create an analysis brief, source summary,
+calculation log, or any second file. Confirm the file exists at that exact path and report
+the path, word count, and file size in bytes. List any requirement you could not meet.

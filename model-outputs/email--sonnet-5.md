@@ -1,0 +1,13 @@
+Subject: Forecast call: target at risk — 94% raw coverage but only 46% weighted, concentrated in two deals
+
+Open pipeline: $2,730,000, all 16 open opportunities (current-pipeline.csv). Weighted forecast: $1,330,000 (current-pipeline.csv; weights per forecast-rules.md rule 2 — Pipeline 25%, BestCase 60%, Commit 100%). Total target: $2,900,000, 4 owners (targets.csv). Coverage = open ÷ target = $2,730,000 / $2,900,000 = 94% (forecast-rules.md rule 3). Weighted ÷ target = 46% (same two figures) — the call: raw coverage looks fine, but risk-adjusted forecast is well short of plan.
+
+What moved (2026-07-18 prior-pipeline.csv → 2026-08-20 current-pipeline.csv): weighted forecast +$384,250 ($945,750→$1,330,000); open pipeline nearly flat, +$25,000. Driver: three deals advanced stage/category with no seller-note explanation — Aster Health Proposal/Pipeline→Negotiation/BestCase (+$119,000, 006SYNAUG001), Dovetail Travel Proposal/BestCase→Negotiation/Commit (+$168,000, 006SYNAUG004), Junction Apparel Proposal/Pipeline→Negotiation/BestCase (+$91,000, 006SYNAUG010) — 98% of the increase. No opportunities closed won or lost in either snapshot.
+
+Concentration/aging/stale (current-pipeline.csv; rules 4-6): Dovetail Travel + Aster Health, the two largest open deals by amount, hold 46.9% of weighted forecast ($624,000/$1,330,000). 4 opps stale >30 days by LastActivityDate — 006SYNAUG002 (48d), 006SYNAUG005 (51d), 006SYNAUG012 (61d), 006SYNAUG014 (76d) — but that field is identical across both snapshots for all 16 rows, so treat as unverified. All 16 opps are ≥60 days since CreatedDate (uninformative, not a differentiator); 8 of 16 are also ≥60 days in current stage. StageEnteredDate for 006SYNAUG004 and 006SYNAUG010 precedes their prior-snapshot stage-entry date — a data flag, not evidence of progress or slippage.
+
+Actions: (1) Require a deal-level review of Dovetail Travel and Aster Health before counting them in quarter-end commit — Owner: Casey Nguyen, Jordan Lee. (2) Confirm with sellers before treating the $378,000 stage-advance gain as real — Owner: Jordan Lee, Casey Nguyen, Taylor Brooks. (3) Fix LastActivityDate/StageEnteredDate capture before next snapshot — Owner: RevOps.
+
+Data problems: LastActivityDate is identical across both snapshots for all 16 opps and postdates the 2026-07-18 prior snapshot for 12 of them; StageEnteredDate is out of sequence for two advanced deals (above); Elmstead Home's CloseDate (2026-07-15) is already past the snapshot with the deal still open (006SYNAUG005).
+
+Could not confirm: why the three deals advanced stage; the time period the $2,900,000 target covers (not stated in targets.csv); whether any opportunity left the pipeline between snapshots.
